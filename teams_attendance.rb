@@ -10,14 +10,14 @@ class TeamsAttendance < Formula
   ## Optionally, specify a repository to be used. Brew then generates a '--HEAD | --head' option. 
   ## Remember to also test it. 'master' is the default branch and doesn't need stating with a
   ## :branch conditional.
-  head "https://github.com/justincbagley/Teams-Attendance.git"
+  head "https://github.com/justincbagley/teams-attendance.git"
 
   def install
     prefix.install "LICENSE"
     prefix.install "README.md"
     prefix.install "teams_attendance.sh"
-    if File.file?("#{bin}/bgcInstaller.sh") then
-        system "rm", "#{bin}/bgcInstaller.sh"
+    if File.file?("#{bin}/teams_attendance.sh") then
+        system "rm", "#{bin}/teams_attendance.sh"
     end
   end
 
