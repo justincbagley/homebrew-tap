@@ -20,3 +20,19 @@ For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).
 -   bgc_tools: `brew install bgc_tools`
 -   PIrANHA: `brew install piranha`
 -   Teams_Attendance: `brew install teams_attendance`
+
+## Uninstall
+
+`brew uninstall bgc_tools`
+
+OR
+
+`brew uninstall piranha`
+
+OR
+
+`brew uninstall teams_attendance`
+
+AND
+
+`brew untap justincbagley/homebrew-tap`
