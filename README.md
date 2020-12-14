@@ -25,14 +25,8 @@ For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).
 
 `brew uninstall bgc_tools`
 
-OR
+OR `brew uninstall piranha`
 
-`brew uninstall piranha`
+OR `brew uninstall teams_attendance`
 
-OR
-
-`brew uninstall teams_attendance`
-
-AND
-
-`brew untap justincbagley/homebrew-tap`
+AND `brew untap justincbagley/homebrew-tap`
