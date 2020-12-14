@@ -30,6 +30,13 @@ OR:
 -   PIrANHA:  `brew install --HEAD piranha`
 -   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
+If `piranha` executable not available at cli with tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)), then try:
+
+```bash
+source /usr/local/Cellar/piranha/*/bin/source_piranha_compl.sh ;
+source ~/.bash_profile ;
+```
+
 ## Update
 
 Regular upgrade to latest published release/version:
