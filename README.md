@@ -29,4 +29,4 @@ OR `brew uninstall piranha`
 
 OR `brew uninstall teams_attendance`
 
-AND `brew untap justincbagley/homebrew-tap`
+AND `brew untap justincbagley/homebrew-tap`.
