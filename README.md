@@ -11,7 +11,7 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 -   `brew tap justincbagley/homebrew-tap`
 
-OR 
+OR: 
 
 -   `brew tap justincbagley/tap`
 <!--For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).-->
@@ -58,7 +58,7 @@ Then:
 
 -   `brew untap justincbagley/homebrew-tap`
 
-OR 
+OR:
 
 -   `brew untap justincbagley/tap`
 
