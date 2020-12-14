@@ -16,13 +16,9 @@ class Teams-Attendance < Formula
     prefix.install "LICENSE"
     prefix.install "README.md"
     prefix.install "teams_attendance.sh"
-      
     if File.file?("#{bin}/bgcInstaller.sh") then
         system "rm", "#{bin}/bgcInstaller.sh"
     end
-
-    # bin.install 'add_switchjdk_to_bash_profile_safely.sh'
-    # etc.install 'switchjdk-module.bash'
   end
 
   # def post_install
@@ -34,7 +30,12 @@ class Teams-Attendance < Formula
   #   They will still be there after an uninstall, but are adaptive (nothing happens if switchjdk was uninstalled)
   #   If you're a zsh person, then patches are welcome: https://github.com/paul-hammant/switchjdk/blob/master/add_switchjdk_to_bash_profile_safely.sh
   #  EOS
+  # 
+  # end
 
+  test do
+    system "false"
+    system "teams_attendance.sh", "--version"
   end
 
 end
