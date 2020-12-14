@@ -58,6 +58,7 @@ First:
 Then:
 
 -   `brew untap justincbagley/homebrew-tap`.
--   OR `brew untap justincbagley/tap`.
+OR 
+-   `brew untap justincbagley/tap`.
 
 *Last update:* December 14, 2020
