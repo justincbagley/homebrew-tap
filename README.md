@@ -9,13 +9,13 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 ## Instructions
 
-### Add this tap
+### 1.  Add this tap
 
 `brew tap justincbagley/homebrew-tap`
 
 For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).
 
-### Install
+### 2.  Install
 
 -   bgc_tools: `brew install bgc_tools`
 -   PIrANHA: `brew install piranha`
