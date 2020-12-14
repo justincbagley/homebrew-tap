@@ -34,9 +34,6 @@ class bgc_tools < Formula
     if File.file?("#{bin}/estpostCompiler.sh") then
         system "rm", "#{bin}/estpostCompiler.sh"
     end
-
-    # bin.install 'add_switchjdk_to_bash_profile_safely.sh'
-    # etc.install 'switchjdk-module.bash'
   end
 
   # def post_install
@@ -48,7 +45,12 @@ class bgc_tools < Formula
   #   They will still be there after an uninstall, but are adaptive (nothing happens if switchjdk was uninstalled)
   #   If you're a zsh person, then patches are welcome: https://github.com/paul-hammant/switchjdk/blob/master/add_switchjdk_to_bash_profile_safely.sh
   #  EOS
+  # 
+  # end
 
+  test do
+    system "false"
+    system "bgcInstaller.sh.sh", "--version"
   end
 
 end
