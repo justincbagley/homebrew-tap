@@ -49,12 +49,14 @@ Upgrade to latest cutting-edge development version:
 
 ### Uninstall
 
+First: 
+
 -   bgc_tools:  `brew uninstall bgc_tools`
 -   PIrANHA:  `brew uninstall piranha`
 -   Teams_Attendance:  `brew uninstall teams_attendance`
 
 Then:
 
-`brew untap justincbagley/homebrew-tap`.
+-   `brew untap justincbagley/homebrew-tap`.
 
 *Last update:* December 14, 2020
