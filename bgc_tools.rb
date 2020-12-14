@@ -1,4 +1,4 @@
-class BGC_tools < Formula
+class BgcTools < Formula
 
   desc "Utilities for automating bgc (Bayesian genomic cline) file prep, analysis, and results plotting"
   homepage "://github.com/justincbagley/bgc_tools"
