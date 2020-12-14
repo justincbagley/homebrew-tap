@@ -1,4 +1,4 @@
-class Teams-Attendance < Formula
+class teams_attendance < Formula
 
   desc "Bash script to summarize Microsoft Teams Participant attendance data"
   homepage "://github.com/justincbagley/Teams-Attendance"
