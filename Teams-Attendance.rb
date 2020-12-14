@@ -4,7 +4,7 @@ class Teams-Attendance < Formula
   homepage "://github.com/justincbagley/Teams-Attendance"
   url "https://github.com/justincbagley/Teams-Attendance/archive/v0.1.0.tar.gz"
   version "0.1.0"
-  sha256 "2a65c08cbd290fe1d277414728e8e9f3b53855ca53feb3f28f5048e69c686431"
+  sha256 "6dba055a89fb1c325a981540ec6abda47be91b13ef3f46c8062c870c44db8456"
   # shasum -a 256 v0.1.0.tar.gz
   
   ## Optionally, specify a repository to be used. Brew then generates a '--HEAD | --head' option. 
