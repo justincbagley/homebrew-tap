@@ -11,10 +11,11 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 ### Add this tap
 
-`brew tap justincbagley/homebrew-tap`
+-   `brew tap justincbagley/homebrew-tap`
 
-OR `brew tap justincbagley/tap`
+OR 
 
+-   `brew tap justincbagley/tap`
 <!--For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).-->
 
 ### Install
