@@ -7,9 +7,7 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 -   [PIrANHA](https://github.com/justincbagley/piranha)
 -   [Teams_Attendance](https://github.com/justincbagley/Teams-Attendance)
 
-## Instructions
-
-### Add this tap
+## Add this tap
 
 -   `brew tap justincbagley/homebrew-tap`
 
@@ -18,7 +16,7 @@ OR
 -   `brew tap justincbagley/tap`
 <!--For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).-->
 
-### Install
+## Install
 
 1.  Regular install to latest published release/version:
 
@@ -32,7 +30,7 @@ OR
 -   PIrANHA:  `brew install --HEAD piranha`
 -   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
-### Update
+## Update
 
 Regular upgrade to latest published release/version:
 
@@ -48,7 +46,7 @@ Upgrade to latest cutting-edge development version:
 -   PIrANHA:  `brew upgrade --fetch-HEAD piranha`
 -   Teams_Attendance:  `brew upgrade --fetch-HEAD teams_attendance`
 
-### Uninstall
+## Uninstall
 
 First: 
 
