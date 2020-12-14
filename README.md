@@ -13,6 +13,8 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 `brew tap justincbagley/homebrew-tap`
 
+For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).
+
 ### Install
 
 -   bgc_tools: `brew install bgc_tools`
