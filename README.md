@@ -18,6 +18,8 @@ OR:
 
 ## Install
 
+Two sets of Homebrew install options:
+
 1.  Regular install to latest published release/version:
 
 -   bgc_tools:  `brew install bgc_tools`
@@ -30,7 +32,7 @@ OR:
 -   PIrANHA:  `brew install --HEAD piranha`
 -   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
-**Ensuring PIrANHA install success**
+Ensuring PIrANHA install success:
 
 To ensure PIrANHA install success, or if `piranha` executable is not available with tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)) at the command line interface (cli), then do:
 
