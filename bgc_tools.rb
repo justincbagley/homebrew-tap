@@ -34,11 +34,19 @@ class BgcTools < Formula
     if File.file?("#{bin}/estpostCompiler.sh") then
         system "rm", "#{bin}/estpostCompiler.sh"
     end
+
+    bin.install "#{prefix}/bgcInstaller.sh"
+    bin.install "#{prefix}/bgcPrepper.sh"
+    bin.install "#{prefix}/bgc_sbatch_default.sh"
+    bin.install "#{prefix}/estpostCompiler.sh"
   end
 
-  # def post_install
-  #   system "bash", "add_switchjdk_to_bash_profile_safely.sh"
-  # end
+  def post_install
+    system "chmod", "+x", "#{bin}/bgcInstaller.sh"
+    system "chmod", "+x", "#{bin}/bgcPrepper.sh"
+    system "chmod", "+x", "#{bin}/bgc_sbatch_default.sh"
+    system "chmod", "+x", "#{bin}/estpostCompiler.sh"
+  end
 
   # def caveats; <<-EOS
   #   Your ~/.bash_profile had a couple of lines added to it to make switchjdk available on the command line.
