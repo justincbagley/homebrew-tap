@@ -16,14 +16,17 @@ class TeamsAttendance < Formula
     prefix.install "LICENSE"
     prefix.install "README.md"
     prefix.install "teams_attendance.sh"
+
     if File.file?("#{bin}/teams_attendance.sh") then
         system "rm", "#{bin}/teams_attendance.sh"
     end
+
+    bin.install "#{prefix}/teams_attendance.sh"
   end
 
-  # def post_install
-  #   system "bash", "add_switchjdk_to_bash_profile_safely.sh"
-  # end
+  def post_install
+    system "chmod", "+x", "#{bin}/teams_attendance.sh"
+  end
 
   # def caveats; <<-EOS
   #   Your ~/.bash_profile had a couple of lines added to it to make switchjdk available on the command line.
