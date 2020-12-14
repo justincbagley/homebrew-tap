@@ -30,7 +30,9 @@ OR:
 -   PIrANHA:  `brew install --HEAD piranha`
 -   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
-If `piranha` executable not available at cli with tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)), then try:
+**Ensuring PIrANHA install success**
+
+To ensure PIrANHA install success, or if `piranha` executable is not available with tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)) at the command line interface (cli), then do:
 
 ```bash
 source /usr/local/Cellar/piranha/*/bin/source_piranha_compl.sh ;
