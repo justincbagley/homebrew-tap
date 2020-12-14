@@ -32,7 +32,7 @@ Two sets of Homebrew install options:
 -   PIrANHA:  `brew install --HEAD piranha`
 -   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
-To ensure PIrANHA install success, or if `piranha` executable is not available with dynamnic tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)) at the command line interface (cli), then do:
+After running one of the installs *above*, it is recommended that users do `source ~/.bash_profile` next on macOS, or `source ~/.bashrc` next on Linux. To ensure PIrANHA install success, or if `piranha` executable is not available with dynamnic tab completion (shown [here](https://github.com/justincbagley/piranha#piranha)) at the command line interface (cli), then do:
 
 ```bash
 source /usr/local/Cellar/piranha/*/bin/source_piranha_compl.sh ;
