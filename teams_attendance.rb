@@ -1,8 +1,8 @@
 class teams_attendance < Formula
 
   desc "Bash script to summarize Microsoft Teams Participant attendance data"
-  homepage "://github.com/justincbagley/Teams-Attendance"
-  url "https://github.com/justincbagley/Teams-Attendance/archive/v0.1.0.tar.gz"
+  homepage "https://github.com/justincbagley/teams-attendance"
+  url "https://github.com/justincbagley/teams-attendance/archive/v0.1.0.tar.gz"
   version "0.1.0"
   sha256 "6dba055a89fb1c325a981540ec6abda47be91b13ef3f46c8062c870c44db8456"
   # shasum -a 256 v0.1.0.tar.gz
