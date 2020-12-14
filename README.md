@@ -9,24 +9,52 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 ## Instructions
 
-### 1.  Add this tap
+### Add this tap
 
 `brew tap justincbagley/homebrew-tap`
 
-For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).
+OR `brew tap justincbagley/tap`
 
-### 2.  Install
+<!--For PIrANHA, also see [here](https://github.com/justincbagley/homebrew-piranha).-->
 
--   bgc_tools: `brew install bgc_tools`
--   PIrANHA: `brew install piranha`
--   Teams_Attendance: `brew install teams_attendance`
+### Install
 
-## Uninstall
+1.  Regular install to latest published release/version:
 
-`brew uninstall bgc_tools`
+-   bgc_tools:  `brew install bgc_tools`
+-   PIrANHA:  `brew install piranha`
+-   Teams_Attendance:  `brew install teams_attendance`
 
-OR `brew uninstall piranha`
+2.  Install latest cutting-edge development version:
 
-OR `brew uninstall teams_attendance`
+-   bgc_tools:  `brew install --HEAD bgc_tools`
+-   PIrANHA:  `brew install --HEAD piranha`
+-   Teams_Attendance:  `brew install --HEAD teams_attendance`
 
-AND `brew untap justincbagley/homebrew-tap`.
+### Update
+
+Regular upgrade to latest published release/version:
+
+-   bgc_tools:  `brew upgrade bgc_tools`
+-   PIrANHA:  `brew upgrade piranha`
+-   Teams_Attendance:  `brew upgrade teams_attendance`
+
+*Recommended:*
+
+Upgrade to latest cutting-edge development version:
+
+-   bgc_tools:  `brew upgrade --fetch-HEAD bgc_tools`
+-   PIrANHA:  `brew upgrade --fetch-HEAD piranha`
+-   Teams_Attendance:  `brew upgrade --fetch-HEAD teams_attendance`
+
+### Uninstall
+
+-   bgc_tools:  `brew uninstall bgc_tools`
+-   PIrANHA:  `brew uninstall piranha`
+-   Teams_Attendance:  `brew uninstall teams_attendance`
+
+Then:
+
+`brew untap justincbagley/homebrew-tap`.
+
+*Last update:* December 14, 2020
