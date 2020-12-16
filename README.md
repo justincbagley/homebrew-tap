@@ -24,6 +24,7 @@ Two sets of Homebrew install options:
 
 -   bgc_tools:  `brew install bgc_tools`
 -   PIrANHA:  `brew install piranha`
+-   phyutility:  `brew install phyutility`
 -   Teams_Attendance:  `brew install teams_attendance`
 
 2.  Install latest cutting-edge development version:
@@ -61,6 +62,7 @@ First:
 
 -   bgc_tools:  `brew uninstall bgc_tools`
 -   PIrANHA:  `brew uninstall piranha`
+-   phyutility:  `brew uninstall phyutility`
 -   Teams_Attendance:  `brew uninstall teams_attendance`
 
 Then:
