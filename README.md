@@ -5,6 +5,7 @@ This is a [Homebrew](https://brew.sh) tap containing [Ruby](https://www.ruby-lan
 
 -   [bgc_tools](https://github.com/justincbagley/bgc-tools)
 -   [PIrANHA](https://github.com/justincbagley/piranha)
+-   [phyutility](https://github.com/blackrim/phyutility)
 -   [Teams_Attendance](https://github.com/justincbagley/Teams-Attendance)
 
 ## Add this tap
@@ -73,4 +74,4 @@ OR:
 
 -   `brew untap justincbagley/tap`
 
-*Last update:* December 14, 2020
+*Last update:* December 15, 2020
