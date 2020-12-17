@@ -22,7 +22,7 @@ class Piranha < Formula
     prefix.install "CITATION.md"
     prefix.install "changeLog.md"
     prefix.install "Quick-Guide.md"
-    prefix.install "Quick_Guide.pdf"
+    prefix.install "Quick-Guide.pdf"
     prefix.install "README.md"
     prefix.install Dir["bin"]    
     prefix.install Dir["completions"]    
