@@ -18,10 +18,10 @@ class Piranha < Formula
     prefix.install "piranha"
     prefix.install "piranha.sh"
     prefix.install "LICENSE"
-    prefix.install "CODE_OF_CONDUCT.md"
+    prefix.install "CODE-OF-CONDUCT.md"
     prefix.install "CITATION.md"
     prefix.install "changeLog.md"
-    prefix.install "Quick_Guide.md"
+    prefix.install "Quick-Guide.md"
     prefix.install "Quick_Guide.pdf"
     prefix.install "README.md"
     prefix.install Dir["bin"]    
