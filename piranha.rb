@@ -37,7 +37,7 @@ class Piranha < Formula
     bin.install "#{prefix}/piranha"
     bin.install "#{prefix}/completions/source_piranha_compl.sh"
     
-    # Add installer scripts to local "/etc/" dir (first removing them, if older versions present): 
+    # Add installer script to local "/etc/" dir (first removing them, if older versions present): 
     if File.file?("#{etc}/install_piranha") then
         system "rm", "#{etc}/install_piranha"
     end
