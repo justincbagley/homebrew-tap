@@ -2,9 +2,9 @@ class Piranha < Formula
   
   desc "Scripts for file processing and analysis in phylogenomics & phylogeography"
   homepage "https://justinbagley.org/piranha/"
-  url "https://github.com/justincbagley/piranha/archive/v0.4a3.tar.gz"
-  sha256 "cfe1cf40b718ffa45d5732c8fb7a60757a8c091d11e6d63369699516aac82a52"
-  version "0.4a3"
+  url "https://github.com/justincbagley/piranha/archive/v0.4a4.tar.gz"
+  sha256 "fe723876cff117868e54099968461e6343f26a094899ef0aedec2ac384034948"
+  version "0.4a4"
   
   ## Optionally, specify a repository to be used. Brew then generates a '--HEAD | --head' option. 
   ## Remember to also test it. 'master' is the default branch and doesn't need stating with a
