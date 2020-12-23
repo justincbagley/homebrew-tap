@@ -2,8 +2,11 @@ class Magnet < Formula
   
   desc "Shell script pipeline for inferring ML gene trees for many loci (e.g. genomic RAD loci)"
   homepage "https://github.com/justincbagley/MAGNET"
-  url "https://github.com/justincbagley/magnet/archive/v1.2.0.tar.gz"
-  sha256 ""
+  url "https://github.com/justincbagley/MAGNET/archive/v1.2.0.tar.gz"
+  sha256 "f1f907db80e430fb66a8e010e94ab475b00fa2d7798c9b7f386645f4a8e31035"
+    # Also source .zip, which would be: 
+    # url "https://github.com/justincbagley/MAGNET/archive/v1.2.0.zip"
+    # sha256 "70ef4786d8bfc39e61d4cecb658ed7921cc0f83fd4297686159ac7a95ba78640"
   version "1.2.0"
   
   ## Optionally, specify a repository to be used. Brew then generates a '--HEAD | --head' option. 
