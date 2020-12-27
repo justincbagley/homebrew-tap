@@ -60,7 +60,7 @@ class Piranha < Formula
   end
 
   test do
-    ## Modified example, commented out: assert_match "piranha v1.1.6", shell_output("#{bin}/piranha -V", 2)
+    ## Modified example, commented out: assert_match "piranha v1.1.8", shell_output("#{bin}/piranha -V", 2)
     system "false"
     system "piranha", "--version"
   end
